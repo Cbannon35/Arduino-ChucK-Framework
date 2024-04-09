@@ -1,11 +1,11 @@
 /* Analog Ranges */
-940 => int lightLowerBound; // iphone flashlight directly on sensor
-1021 => int lightUpperBound; // hand covering sensor
-25 => int lightThreshold; // 940 + 25 = play note
-14 => int buttonBound;
+925 => int lightLowerBound; // strong light in demo video
+995 => int lightUpperBound; // hand covering sensor
+15 => int lightThreshold; // 940 + 25 = play note
+16 => int buttonBound;
 
 6 => int numPins; // number of analog pins on the arduino uno
-100 => int maxVolume; //integers for mapping purposes... 
+100 => int maxVolume; // integers for mapping purposes 
 0 => int minVolume; 
 
 [60, 62, 64, 65, 67, 69, 71] @=> int baseNotes[]; // C, D, E, F, G, A, B
@@ -17,7 +17,7 @@ fun int[] getNoteAndVolume(int sensor, int sensorVal) {
     }
 
     /* If button press */
-    if (sensorVal <= buttonBound + 1 && sensorVal >= buttonBound -1) 
+    if (sensorVal <= buttonBound + 1 && sensorVal >= buttonBound - 1) 
     {
         return [baseNotes[sensor], maxVolume];
     }
@@ -95,7 +95,7 @@ fun SerialIO setup()
 
     if(device >= list.cap()) 
     {
-        cherr <= "serial device #" <= device <= " not available\n";
+        chout <= "serial device #" <= device <= " not available\n";
         me.exit(); 
     }
 

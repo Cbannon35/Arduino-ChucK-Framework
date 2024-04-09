@@ -34,14 +34,14 @@ void loop() {
   // inches = (duration/2) / 74;   // Divide by 74 or multiply by 0.0135
   
   // Assume no hand detected
-  if (cm > 80) {
-    cm = 0;
-  } else if (cm > 45) {
+  if (cm > 50) {
+    cm = 18; // 3 --> doesn't change note's octave
+  } else if (cm > 30) {
     // upper bound cm
-    cm = 45;
+    cm = 30;
   }
   // put it on scale of 0 to 5
-  cm = cm / 8; 
+  cm = cm / 6; 
   
   Serial.print(cm);
   Serial.print(" ");
