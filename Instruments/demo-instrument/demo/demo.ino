@@ -34,7 +34,7 @@ void loop() {
   // inches = (duration/2) / 74;   // Divide by 74 or multiply by 0.0135
   
   // Assume no hand detected
-  if (cm > 50) {
+  if (cm > 50 || cm < 3) {
     cm = 18; // 3 --> doesn't change note's octave
   } else if (cm > 30) {
     // upper bound cm
