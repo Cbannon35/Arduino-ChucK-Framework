@@ -8,7 +8,7 @@ This is a toolkit for crafting sonic interfaces using Arduino and ChucK.
 2. Upload its `Arduino/[instrument].ino` sketch to your Arduino.
 3. Run the `[instrumet].ck` script in ChucK.
 
-Note a GUI is coming soon.
+🛠️ GUI coming soon 🛠️
 
 ## Requirements
 
@@ -18,9 +18,8 @@ Note a GUI is coming soon.
 
 1. [Demo](Instruments/demo-instrument)
 
-More instruments are coming soon.
+🛠️ More instruments coming soon 🛠️
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
