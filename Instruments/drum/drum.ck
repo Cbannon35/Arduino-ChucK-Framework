@@ -13,13 +13,13 @@ me.dir()+ "assets/Acoustic_Ride_Short_02.wav" => ride.read;
 me.dir()+ "assets/Acoustic_Low_Tom_01.wav" => tom.read;
 
 500.0 :: ms => dur tempo;
-0.0 => master.gain;
+// 0.0 => master.gain;
 6 => int numPins;
 20 => int historyLength;
 int baseVals[numPins];
 int pinHistory[numPins][historyLength];
 
-40 => int triggerThresh;
+20 => int triggerThresh;
 300.0 => float range;
 
 fun SndBuf index_to_sound(int index)
@@ -144,7 +144,6 @@ fun void processLine(StringTokenizer tok) {
 
 fun void main(SerialIO s)
 {
-    0.5 => master.gain;
     while(true)
     {
         s.onLine() => now;
