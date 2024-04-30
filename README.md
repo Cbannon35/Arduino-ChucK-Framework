@@ -18,7 +18,7 @@ This is a toolkit for crafting sonic interfaces using Arduino and ChucK.
 
 1. [Demo](Instruments/demo_)
 2. [Drum](Instruments/drum_)
-3. [Illumaphone](Instruments/Illumaphone_)
+3. [Illumaphone](Instruments/illumaphone_)
 
 🛠️ More instruments coming soon 🛠️
 
