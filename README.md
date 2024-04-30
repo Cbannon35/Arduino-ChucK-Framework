@@ -4,8 +4,8 @@ This is a toolkit for crafting sonic interfaces using Arduino and ChucK.
 
 ## Usage
 
-1. Find an instrument int the Instruments folder.
-2. Upload its `Arduino/[instrument].ino` sketch to your Arduino.
+1. Find an instrument in the Instruments folder.
+2. Upload its `[instrument]/[instrument].ino` sketch to your Arduino.
 3. Run the `[instrumet].ck` script in ChucK.
 
 🛠️ GUI coming soon 🛠️
@@ -16,7 +16,9 @@ This is a toolkit for crafting sonic interfaces using Arduino and ChucK.
 
 ## Instruments
 
-1. [Demo](Instruments/demo-instrument)
+1. [Demo](Instruments/demo_)
+2. [Drum](Instruments/drum_)
+3. [Illumaphone](Instruments/Illumaphone_)
 
 🛠️ More instruments coming soon 🛠️
 
