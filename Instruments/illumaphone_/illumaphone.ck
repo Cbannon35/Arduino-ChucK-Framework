@@ -45,7 +45,7 @@ Envelope envs[numPins];
 TriOsc oscs[numPins][oscsPerPin];
 SinOsc sinOscs[numPins][2];
 
-40 => int triggerThresh;
+20 => int triggerThresh;
 300.0 => float range;
 
 Gain g;
