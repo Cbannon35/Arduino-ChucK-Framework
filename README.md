@@ -24,4 +24,4 @@ This is a toolkit for crafting sonic interfaces using Arduino and ChucK.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Certain instruments may not fall under this licence as they were put together from online tutorials.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Certain instruments may not fall under this license as they were put together from online tutorials.
