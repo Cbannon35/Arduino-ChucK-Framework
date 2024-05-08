@@ -1,6 +1,10 @@
 // Authored by Bonnie Eisenman.
 // blog.bonnieeisenman.com
 // This code is provided as-is. It's not perfect and may require debugging!
+
+// NOTE: this instrument is unfinished and not a valid instrument in the context of the sonic toolkit
+// It does work however, so feel free to play around with it!
+
 SerialIO.list() @=> string list[];
 
 for(int i; i < list.cap(); i++)
