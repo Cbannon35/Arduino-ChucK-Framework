@@ -1,3 +1,6 @@
+// NOTE: this instrument is unfinished and not a valid instrument in the context of the sonic toolkit
+// It does work however, so feel free to play around with it!
+
 SndBuf kick => Gain master => dac;
 SndBuf snare => master;
 SndBuf hat => master;
